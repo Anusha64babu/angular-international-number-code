@@ -24,10 +24,14 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+           "styles": [
+  "src/styles.css",
+  "node_modules/intl-tel-input/build/css/intlTelInput.css"
+],
+"scripts": [
+  "node_modules/intl-tel-input/build/js/intlTelInput.min.js"
+]
+
           },
           "configurations": {
             "production": {
@@ -94,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ca785de5-e859-48d9-9ad5-f7c0c33a026f"
   }
 }
